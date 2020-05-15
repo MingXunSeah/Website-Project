@@ -1,9 +1,6 @@
 html {
-    background: url(images/bg.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 #title {
@@ -27,4 +24,16 @@ ul > ol {
 
 ul li {
     color: black;
+}
+
+.bg {
+    background-image:url(images/bg.jpg);
+    background-size: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
 }
