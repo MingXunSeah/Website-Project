@@ -1,0 +1,30 @@
+html {
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#title {
+    text-decoration: none;
+    font-size: 50px;     
+    font-weight: bold;
+    color: #ff5757;
+}
+
+a:hover {
+    text-shadow: 2px 2px black;
+}
+
+ul {
+    color: #ff5757;
+}
+
+ul > ol {
+    color: #184aaf;
+}
+
+ul li {
+    color: black;
+}
