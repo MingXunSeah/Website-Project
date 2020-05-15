@@ -1,2 +1,3 @@
-# Website-Project
-HTML5, CSS exposure using a basic website
+# Project 0
+
+Web Programming with Python and JavaScript
