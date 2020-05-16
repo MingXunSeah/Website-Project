@@ -1,6 +1,7 @@
 html {
     height: 100%;
     width: 100%;
+    padding-left: 2%;
 }
 
 #title {
@@ -26,14 +27,11 @@ ul li {
     color: black;
 }
 
-.bg {
-    background-image:url(images/bg.jpg);
-    background-size: 100%;
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+body {
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("images/bg.jpg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     z-index: -1;
 }
