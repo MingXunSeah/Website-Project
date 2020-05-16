@@ -4,30 +4,8 @@ html {
     padding-left: 2%;
 }
 
-#title {
-    text-decoration: none;
-    font-size: 50px;     
-    font-weight: bold;
-    color: #ff5757;
-}
-
-a:hover {
-    text-shadow: 2px 2px black;
-}
-
-ul {
-    color: #ff5757;
-}
-
-ul > ol {
-    color: #184aaf;
-}
-
-ul li {
-    color: black;
-}
-
 body {
+    /* linear gradient here is used to tint the image such that it looks opaque*/
     background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("images/bg.jpg");
     height: 100%;
     background-size: cover;
@@ -35,3 +13,39 @@ body {
     background-position: center;
     z-index: -1;
 }
+
+#title {
+    text-decoration: none;
+    font-size: 75px;     
+    font-weight: bold;
+    color: #ff5757;
+}
+
+#title:hover {
+    text-shadow: 2px 2px black;
+}
+
+.row a{
+    text-align: center;
+    background-color: #ff5757;
+    height: 5%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none!important;
+    margin: 1%;
+}
+
+.row a:hover{
+    color: white;
+    box-shadow: 2px 2px black;
+}
+
+ul {
+    color: #ff5757;
+}
+
+ul li {
+    color: black;
+}
+
+
