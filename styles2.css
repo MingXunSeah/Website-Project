@@ -1,0 +1,41 @@
+/* line 4, ../Website-Project/stylesheets/styles2.scss */
+#title {
+  color: #ff5757;
+}
+
+/* line 8, ../Website-Project/stylesheets/styles2.scss */
+#title::selection {
+  color: #ff5757;
+}
+
+/* line 13, ../Website-Project/stylesheets/styles2.scss */
+.row a {
+  background-color: #ff5757;
+}
+
+/* line 17, ../Website-Project/stylesheets/styles2.scss */
+.row a::selection {
+  background-color: #ff5757;
+}
+
+/* line 22, ../Website-Project/stylesheets/styles2.scss */
+ul {
+  color: #ff5757;
+}
+
+/* line 26, ../Website-Project/stylesheets/styles2.scss */
+#carousell img {
+  height: 50px;
+  width: 50px;
+}
+
+/* line 31, ../Website-Project/stylesheets/styles2.scss */
+#carousell h3 {
+  display: inline;
+  color: #ff5757;
+  vertical-align: middle;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=styles2.css.map */

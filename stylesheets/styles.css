@@ -6,7 +6,7 @@ html {
 
 body {
     /* linear gradient here is used to tint the image such that it looks opaque*/
-    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("images/bg.jpg");
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("../images/bg.jpg");
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,7 +19,6 @@ body {
     text-decoration: none;
     font-size: 75px;     
     font-weight: bold;
-    color: #ff5757;
 }
 
 @media (max-width: 499px) {
@@ -37,8 +36,7 @@ body {
 }
 
 #title::selection {
-    color: white;
-    background-color: #ff5757;
+    color: white;;
 }
 
 #title:hover {
@@ -47,7 +45,6 @@ body {
 
 .row a{
     text-align: center;
-    background-color: #ff5757;
     height: 5%;
     font-weight: bold;
     color: white;
@@ -62,11 +59,6 @@ body {
 
 .row a::selection {
     color: white;
-    background-color: #ff5757;
-}
-
-ul {
-    color: #ff5757;
 }
 
 ul li {
@@ -98,14 +90,4 @@ img {
 .item::selection {
     color: white;
     background-color: #ff5757;
-}
-
-#carousell img{
-    width: 100px;
-    height: 100px;
-}
-
-#carousell h3 {
-    font-size: 50px;
-    color: #ff5757;
 }

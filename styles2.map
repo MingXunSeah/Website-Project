@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "styles2.css",
+	"sources": [
+		"stylesheets/styles2.scss"
+	],
+	"sourcesContent": [
+		"$color: #ff5757;\r\n$alt_color: #5c7bb3;\r\n\r\n#title{\r\n    color: $color;\r\n}\r\n\r\n#title::selection {\r\n    color: $color;\r\n}\r\n\r\n.row {\r\n    a{\r\n        background-color: $color;\r\n    }\r\n\r\n    a::selection {\r\n        background-color: $color;\r\n    }\r\n}\r\n\r\nul {\r\n    color: $color;\r\n}\r\n\r\n%icon {\r\n    height: 50px;\r\n    width: 50px;\r\n}\r\n\r\n%icon-text {\r\n    display: inline;\r\n    color: $color;\r\n    vertical-align: middle;\r\n    font-size: 50px;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n}\r\n\r\n#carousell {\r\n    img {\r\n        @extend %icon;\r\n    }\r\n\r\n    h3 {\r\n        @extend %icon-text;\r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAGA,AAAA,MAAM,CAAA;EACF,KAAK,EAJD,OAAO;CAKd;;;AAED,AAAA,MAAM,AAAA,WAAW,CAAC;EACd,KAAK,EARD,OAAO;CASd;;;AAED,AACI,IADA,CACA,CAAC,CAAA;EACG,gBAAgB,EAbhB,OAAO;CAcV;;;AAHL,AAKI,IALA,CAKA,CAAC,AAAA,WAAW,CAAC;EACT,gBAAgB,EAjBhB,OAAO;CAkBV;;;AAGL,AAAA,EAAE,CAAC;EACC,KAAK,EAtBD,OAAO;CAuBd;;;AAeD,AAbA,UAaU,CACN,GAAG,CAdD;EACF,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;CACd;;;AAUD,AARA,UAQU,CAKN,EAAE,CAbK;EACP,OAAO,EAAE,MAAM;EACf,KAAK,EAhCD,OAAO;EAiCX,cAAc,EAAE,MAAM;EACtB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,4BAA4B;CAC5C"
+}
